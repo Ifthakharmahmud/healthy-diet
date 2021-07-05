@@ -71,7 +71,7 @@ a.commonButton {
 .aboutMe{
     display: flex;
     background: url('assets/img/shapes/Frame 58.jpg');
-    padding-top:100px;
+    padding-top:150px;
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
@@ -91,3 +91,63 @@ a.commonButton {
 
 
 /* About me CSS Ends  */
+
+
+/* Recipies CSS Starts  */
+.recipies{
+    background-color: #ffffff;
+    padding: 100px 50px 100px 50px
+}
+.sectionTitle{
+    text-align: center;
+}
+.sectionTitle h2 {
+    font-size: 40px;
+    color: #575757;
+}
+
+.sectionTitle p {
+    width: 50%;
+    margin: 0 auto;
+    line-height: 2;
+    font-size: 18px;
+}
+
+.recipieBoxes{
+    display: flex;
+    margin-top: 100px;
+}
+
+.singleBox{
+    width: 28%;
+    padding: 30px;
+    background:#fff;
+    margin-left: 60px;
+    border-radius: 40px;
+    box-shadow: 0 0 30px rgb(124, 123, 123);
+}
+
+.singleBox:first-child{
+    margin-left: 0;
+}
+
+.singleBox img{
+    width: 100%;
+    border-radius: 40px;
+    
+    
+}
+
+.recipieBoxes h3{
+    font-size: 30px;
+    color: #575757;
+}
+
+.recipieBoxes p {
+    
+    line-height: 2;
+    /* font-size: 18px; */
+    color: #575757;
+}
+
+/* Recipies CSS Ends  */
