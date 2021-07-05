@@ -13,6 +13,7 @@ Description:
 /* General CSS  Starts */
 body{
     font-family: 'Montserrat', sans-serif;
+    margin: 0;
 }
 .p-50{
     padding:50px;
@@ -151,3 +152,95 @@ a.commonButton {
 }
 
 /* Recipies CSS Ends  */
+
+
+/* Social Followers CSS Starts  */
+.followersBoxes{
+    display:flex;
+    box-shadow: 0 0 20px #ccc;
+    padding:50px;
+    border-radius:20px
+}
+
+.singleFollowerBox{
+    width: 33%;
+    text-align:center;
+}
+.singleFollowerBox h1{
+    font-size:40px
+}
+.singleFollowerBox p{
+    font-weight: 700;
+}
+
+/* Social Followers CSS Ends  */
+
+
+/* Contact CSS Ends  */
+.contact{
+    background:rgb(224, 224, 224);
+    display:flex;
+    margin-top: 60px;
+}
+.contact .halfWidth h1{
+    text-align:center;
+    font-size: 40px;
+    color: #575757;
+    margin-bottom: 60px;
+}
+.contact .halfWidth {
+    padding: 20px;
+    margin-left: 20px;
+    
+}
+
+.contact .halfWidth:first-child{
+    margin-left:0
+}
+.contact .halfWidth iframe{
+    width: 100%;
+    border: none;
+    border-radius:10px;
+    height: 600px;
+}
+
+.contact form input,.contact form textarea{
+    width: 100%;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    font-weight: 700;
+    box-sizing: border-box;
+}
+
+.contact label{
+    font-weight: 700;
+    margin-bottom: 10px !important;
+    display:block
+}
+/* Contact CSS Ends  */
+
+
+/* Footer CSS Starts  */
+
+footer{
+    background-color:#0B0D17;
+    padding: 100px;
+    text-align: center;
+}
+
+footer h1 {
+    color: #d2d2d2;
+    font-size: 40px;
+}
+
+footer h1 span {
+    color: #FB934A;
+}
+
+footer p {
+    color: #fff;
+    font-weight: 700;
+}
+/* Footer CSS Ends  */
