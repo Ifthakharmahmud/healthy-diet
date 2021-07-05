@@ -26,12 +26,15 @@ body{
 /* Header CSS starts  */
 header{
     padding: 60px 0px;
-    display:flex
+    display:flex;
+    background: url('assets/img/shapes/Frame 56.jpg');
+    /* background-size: cover; */
+    background-position:right;
 }
 
 .halfWidth{
     width: 50%;
-    padding: 20px;
+    
 }
 header .halfWidth h1 {
     margin-top: 100px;
@@ -43,10 +46,10 @@ header .halfWidth h1 span{
    
     color: #FB934A;
 }
-header .halfWidth p{
+header .halfWidth p, .aboutMe .halfWidth p{
    
     color: #828282;
-    line-height: 1.6;
+    line-height: 1.7;
 }
 a.commonButton {
     background: linear-gradient(to right, #FB944A, #FD4E30);
@@ -58,5 +61,33 @@ a.commonButton {
     color: #fff;
     font-size: 18px;
     font-weight: 700;
+    box-shadow: 0 0 20px #FB944A;
 }
 /* Header CSS Ends  */
+
+
+/* About me CSS starts  */
+
+.aboutMe{
+    display: flex;
+    background: url('assets/img/shapes/Frame 58.jpg');
+    padding-top:100px;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.personImage{
+    /* height:400px */
+    width: 400px;
+}
+
+.aboutMe .halfWidth h2{
+    margin-top: 100px;
+    font-size: 40px;
+    line-height: 1.7;
+    color: #575757;
+
+}
+
+
+/* About me CSS Ends  */
